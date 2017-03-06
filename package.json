@@ -20,7 +20,9 @@
   "homepage": "https://github.com/blizm87/My-Portfoliio#readme",
   "dependencies": {
     "express": "^4.15.1",
+    "express-handlebars": "^3.0.0",
     "morgan": "^1.8.1",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
   }
 }
