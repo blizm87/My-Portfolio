@@ -68,14 +68,26 @@ body {
 .Introduction {
   margin-top: 3.5em;
   height: 445px;
-  background-color: green;
+  background-color: limegreen;
 }
 
 .projectWrapper {
+  width: 60em;
+  margin: 0 auto;
   text-align: center;
 }
-    .projectWrapper > div > a > img {
+    .projectWrapper > div > div > a > img {
+      width: 180px;
       margin: 0 auto;
     }
+
+    .projContentWrapper {
+      padding: 2em;
+    }
+
+        .projContentWrapper > div > p {
+          font-size: 24px;
+        }
+
 
 
