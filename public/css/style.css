@@ -1,11 +1,11 @@
 html, button, input, select, textarea, a,
 .pure-g [class *= "pure-u"] {
         /* Set your content font stack here: */
-        font-family: Times, "Times New Roman", Georgia, serif;
+        font-family: Helvetica, Times, "Times New Roman", Georgia, serif;
     }
 
 body {
-  background-color: rgb(106,197,255);
+  background-color: /*rgb(106,197,255)*/ white;
 }
 
 .pure-u-1 {
@@ -67,7 +67,7 @@ body {
 
 .Introduction {
   margin-top: 3.5em;
-  height: 445px;
+  min-height: 445px;
 }
 
 .projNotice {
@@ -80,7 +80,9 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
     .projectWrapper > div > div > a > img {
+      border: 5px solid #1DA7FF;
       width: 240px;
       margin: 0 auto;
     }
