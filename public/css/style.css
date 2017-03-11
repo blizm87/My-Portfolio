@@ -20,6 +20,10 @@ body {
   width: 100%;
 }
 
+.sectionHeader {
+  margin-left: 180px;
+}
+
 .navigation {
   position: fixed;
   background-color: black;
@@ -82,7 +86,6 @@ body {
 }
 
     .projectWrapper > div > div > a > img {
-      border: 5px solid #1DA7FF;
       width: 240px;
       margin: 0 auto;
     }
@@ -104,4 +107,19 @@ body {
       margin: 0 auto;
       font-size: 24px;
       text-indent: 3em;
+    }
+
+.contact {
+
+}
+
+    .contactMe > p {
+      width: 30em;
+      margin: 0 auto;
+    }
+
+    .contactMe > span > p{
+      width: 30em;
+      margin: 0 auto;
+      text-indent: 2em;
     }
