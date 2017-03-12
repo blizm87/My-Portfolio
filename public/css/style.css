@@ -3,7 +3,6 @@ body {
 }
 
 .myNav {
-  background-color: #0F547F;
   font-size: 18px;
 }
 
@@ -13,7 +12,8 @@ body {
 
     .myNavBtn {
       margin-left: 1em;
-      border: 1px solid grey;
+      background-color: #0F547F;
+      border: 1px solid #0F547F;
     }
 
         .myNavBtn > span {
@@ -25,13 +25,29 @@ body {
 }
 
     .work {
-      background-color: red;
+
     }
 
+        .workContent {
+          padding-left: 3em;
+        }
+
+        .projFormat {
+
+        }
+
+            .projFormat > img {
+              width: 180px;
+            }
+
+            .projContent {
+
+            }
+
     .about {
-      background-color: orange;
+      background-color: darkgrey;
     }
 
     .contact {
-      background-color: green;
+
     }
