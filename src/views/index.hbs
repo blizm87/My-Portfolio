@@ -1,163 +1,57 @@
-<div id="layout" ng-controller="MainController as mainCtrl" class="pure-g">
-  <section class="navigation pure-u">
-    <header>
-      <nav class="navBar">
-        <div class="navLinks">
-{{!--           <a href="#">HOME</a>
- --}}          <a href="#">WORK</a>
-{{!--           <a href="#">SKILLS</a>
- --}}          <a href="#">ABOUT</a>
-          <a href="#">CONTACT</a>
-        </div>
-        <div class="iconBar">
-          <a href="#" title="">Gmail Icon</a>
-          <a href="#">Email me Icon</a>
-        </div>
-      </nav>
-      <div class="menuToggle">
-        <div class=""></div>
+<div class="container-fluid">
+
+  <nav class="navbar navbar-fixed-top myNav">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed pull-left myNavBtn" data-toggle="collapse"
+          data-target="#navLinkItems">
+
+          <span class="sr-only"></span>
+
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </header><!-- /header -->
-  </section>
-  <div class="mainContent pure-g">
-{{!--     <section class="Introduction pure-u-1">
-      <header class="sectionHeader">
-        <h2>INTRODUCTION</h2>
-      </header><!-- /header -->
-      <div class="greeting"></div>
-    </section> --}}
-    <section class="work Introduction pure-u-1">
-      <header class="sectionHeader">
-        <h2>WORK</h2>
-      </header><!-- /header -->
-      <div>
-{{!--         <h3 class="projNotice pure-u">Click image to view app</h3>
- --}}      <div class="projectWrapper pure-g">
-        <div class="project1Wrapper pure-u-1-2">
-          <div class="projContentWrapper pure-u">
-            <a href="https://blizm87.github.io/project_01_build_a_game">
-              <img src="assets/images/project1.png" class="pure-img" alt="Connect Four">
-            </a>
-            <div>
-              <h3>CONNECT FOUR</h3>
-              <p>
-                A front-end only application that enables
-                two-player same screen competition. Where
-                the users try to align 4 of their pieces
-                horizontally, vertically, or diagnally
-                before their opponent.
-              </p>
-              <div>
-                <a href="#"><button type="button">View It!</button></a>
-                <a href="#"><button type="button">Check Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project2Wrapper pure-u-1-2">
-          <div class="projContentWrapper pure-u">
-            <a href="#">
-              <img src="assets/images/project2.png" class="pure-img">
-            </a>
-            <div>
-              <h3>FENIX CHAT</h3>
-              <p>
-                A full-stack application that implements CRUD,
-                catalogues and stores user profiles, and
-                facilitates live chat rooms for discourse
-                on multiple subjects.
-              </p>
-              <div>
-                <a href="#"><button type="button">View It!</button></a>
-                <a href="#"><button type="button">Check Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project3Wrapper pure-u-1-2">
-          <div class="projContentWrapper pure-u">
-            <a href="#">
-              <img src="assets/images/project3.png" class="pure-img">
-            </a>
-            <div>
-              <h3>TRIVIA GAME</h3>
-              <p>
-                Have your mind blown, twisted, and overheated playing "Trivia Game."
-                A full-stack application, with real-time dual player competition, and
-                exciting music to go along with the challenging game play. This app was
-                produced via a team of four developers implementing agile practices.
-              </p>
-              <div>
-                <a href="#"><button type="button">View It!</button></a>
-                <a href="#"><button type="button">Check Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="project4Wrapper pure-u-1-2">
-          <div class="projContentWrapper pure-u">
-            <a href="#">
-              <img src="assets/images/project4.png" class="pure-img">
-            </a>
-            <div>
-              <h3>PoliView.com</h3>
-              <p>
-                A web dashboard that facilitates chat forums,
-                video querys and feeds for entertainment or research,
-                and current event articles to stay modern and up to
-                date on topics ranging from technology, to sports,
-                to Capitol Hill or Wall Street.
-              </p>
-              <div>
-                <a href="#"><button type="button">View It!</button></a>
-                <a href="#"><button type="button">Check Code</button></a>
-              </div>
-            </div>
-          </div>
-        </div>
+
+      <div class="collapse navbar-collapse" id="navLinkItems">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#" class="myNavLinks">HOME <span class="sr-only">(current)</span></a></li>
+          <li><a href="#" class="myNavLinks">WORK</a></li>
+          <li><a href="#" class="myNavLinks">ABOUT</a></li>
+          <li><a href="#" class="myNavLinks">CONTACT</a></li>
+        </ul>
       </div>
+
+    </div>
+  </nav>
+
+  <div class="mainContent">
+
+{{!--       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 work">
+        work
       </div>
-    </section>
-{{!--     <section class="skills pure-u-1">
-      <header class="sectionHeader">
-        <h2>SKILLS</h2>
-      </header><!-- /header -->
-      <div class="skillsIconWrapper">
-        JAVASCRIPT | REACT | ANGULAR | HTML | CSS | EXPRESS | JQUERY | AJAX | NODE.JS | MONGO | MONGOOSE | RoR |
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about">
+      aboutme
       </div>
-    </section> --}}
-    <section class="about pure-u-1">
-      <header class="sectionHeader">
-        <h2>ABOUT</h2>
-      </header><!-- /header -->
-      <div class="aboutMe">
-        <br>
-        <br>
-        <p>
-          November 2016, I became a developer and have coded every day since then.
-          I was born to program, coding has liberated and challenged me, and is a
-          genuine love of my life. From having to pay attention to detail every
-          step of the way, to learning something new every single day. Thanks to
-          coding, every day has become a new gift. My mind set free.
-        </p>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 contact">
+      contactme
+      </div> --}}
+
+      <div class="row work">
+        work
       </div>
-    </section>
-    <section class="contact pure-u-1">
-      <header class="sectionHeader">
-        <h2>CONTACT</h2>
-      </header><!-- /header -->
-      <div class="contactMe">
-        <p>
-          Contact Me:
-        </p>
-        <span>
-          <p>Email - blizm87@gmail.com</p>
-        </span>
-        <span>
-          <p>LinkedIn - <a href="linkedin.com/in/justin-samuels1987">linkedin.com/in/justin-samuels1987</a></p>
-        </span>
-        </p>
+
+      <div class="row about">
+      aboutme
       </div>
-    </section>
+
+      <div class="row contact">
+      contactme
+      </div>
   </div>
+
 </div>
