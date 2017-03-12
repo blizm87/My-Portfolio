@@ -38,11 +38,16 @@ body {
         }
 
             .projFormat > img {
-              width: 180px;
+              width: 240px;
             }
 
             .projContent {
               padding-top: 1em;
+            }
+
+            .projContent > p {
+              padding-top: 1em;
+              font-size: 18px;
             }
 
     .skills {
