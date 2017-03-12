@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid"  ng-controller="MainController as ctrl">
 
   <nav class="navbar navbar-fixed-top bg-primary myNav">
     <div class="container-fluid">
@@ -17,10 +17,11 @@
 
       <div class="collapse navbar-collapse" id="navLinkItems">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#" class="myNavLinks">HOME <span class="sr-only">(current)</span></a></li>
-          <li><a href="#" class="myNavLinks">WORK</a></li>
-          <li><a href="#" class="myNavLinks">ABOUT</a></li>
-          <li><a href="#" class="myNavLinks">CONTACT</a></li>
+          <li><span class="sr-only">(current)</span></li>
+          <li><a href="#top" class="myNavLinks">WORK</a></li>
+          <li><a href="#skills" class="myNavLinks">SKILLS</a></li>
+          <li><a href="#about" class="myNavLinks">ABOUT</a></li>
+          <li><a href="#contact" class="myNavLinks">CONTACT</a></li>
         </ul>
       </div>
 
@@ -38,21 +39,21 @@
 
           <div class="row workContent">
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 projFormat">
+              <h3>Connect Four</h3>
               <img src="assets/images/project1.png" alt="Connect Four App" >
               <div class="projContent">
-                <h3>Connect Four</h3>
-                <a href="#"><button type="button" class="btn btn-primary">View It</button></a>
-                <a href="#"><button type="button" class="btn btn-primary">Check Code</button></a>
+                <a href="https://blizm87.github.io/project_01_build_a_game/"><button type="button" class="btn btn-primary">View It</button></a>
+                <a href="https://github.com/blizm87/project_01_build_a_game"><button type="button" class="btn btn-primary">Check Code</button></a>
                 <p>Description</p>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 projFormat">
+              <h3>Fenix Chat</h3>
               <img src="assets/images/project2.png" alt="Fenix Chat App">
               <div class="projContent">
-                <h3>Fenix Chat</h3>
-                <a href="#"><button type="button" class="btn btn-primary">View It</button></a>
-                <a href="#"><button type="button" class="btn btn-primary">Check Code</button></a>
+                <a href="https://afternoon-crag-96734.herokuapp.com/"><button type="button" class="btn btn-primary">View It</button></a>
+                <a href="https://github.com/blizm87/project_02_crud_app"><button type="button" class="btn btn-primary">Check Code</button></a>
                 <p>Description</p>
               </div>
             </div>
@@ -60,25 +61,37 @@
             <div class="clearfix visible-sm visible-md"></div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 projFormat">
+              <h3>Trivia Game</h3>
               <img src="assets/images/project3.png" alt="Trivia Game App">
               <div class="projContent">
-                <h3>Trivia Game</h3>
-                <a href="#"><button type="button" class="btn btn-primary">View It</button></a>
-                <a href="#"><button type="button" class="btn btn-primary">Check Code</button></a>
+                <a href="https://arcane-wave-24103.herokuapp.com/"><button type="button" class="btn btn-primary">View It</button></a>
+                <a href="https://github.com/WDI-DTLA-41-Group-3/Trivia-Game"><button type="button" class="btn btn-primary">Check Code</button></a>
                 <p>Description</p>
               </div>
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 projFormat">
+              <h3>PoliView</h3>
               <img src="assets/images/project4.png" alt="PoliView App">
               <div class="projContent">
-                <h3>PoliView</h3>
-                <a href="#"><button type="button" class="btn btn-primary">View It</button></a>
-                <a href="#"><button type="button" class="btn btn-primary">Check Code</button></a>
+                <a href="https://pacific-savannah-27114.herokuapp.com/"><button type="button" class="btn btn-primary">View It</button></a>
+                <a href="https://github.com/blizm87/project_04"><button type="button" class="btn btn-primary">Check Code</button></a>
                 <p>Description</p>
               </div>
             </div>
           </div>
+
+        </div>
+      </div>
+
+      <div class="row skills">
+        <div class="container skillsContainer">
+
+          <div class="skillsHeader">
+            <h2 id="skills">SKILLS</h2>
+          </div>
+
+          <div class="contactContent"></div>
 
         </div>
       </div>
@@ -87,10 +100,16 @@
         <div class="container aboutContainer">
 
           <div class="aboutHeader">
-            <h2>ABOUT</h2>
+            <h2 id="about">ABOUT</h2>
           </div>
 
-          <div class="aboutContent"></div>
+          <div class="aboutContent">
+            <p>November 2016, I have coded every day since then. I was born to program,
+               coding has liberated and challenged me, and is a genuine love of my life.
+               From having to pay attention to detail every step of the way, to learning
+               something new every single day. Thanks to coding, every day has become a
+               new gift. My mind set free.</p>
+          </div>
 
         </div>
       </div>
@@ -99,10 +118,10 @@
         <div class="container contactContainer">
 
           <div class="contactHeader">
-            <h2>CONTACT</h2>
+            <h2 id="contact">CONTACT</h2>
           </div>
 
-          <div class="contactContent"></div>
+          <div class="contactContent"> //ctrl.title// </div>
 
         </div>
       </div>

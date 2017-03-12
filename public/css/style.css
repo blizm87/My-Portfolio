@@ -25,7 +25,8 @@ body {
 }
 
     .work {
-
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
 
         .workContent {
@@ -41,13 +42,27 @@ body {
             }
 
             .projContent {
-
+              padding-top: 1em;
             }
 
-    .about {
+    .skills {
       background-color: darkgrey;
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
 
-    .contact {
+    .about {
+      padding-top: 2em;
+      padding-bottom: 4em;
+    }
 
+        .aboutContent {
+          padding-left: 3em;
+          padding-right: 10em;
+        }
+
+    .contact {
+      background-color: darkgrey;
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
