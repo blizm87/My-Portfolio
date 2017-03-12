@@ -51,6 +51,36 @@ body {
       padding-bottom: 4em;
     }
 
+        .skillsContent {
+          padding-top: 3em;
+          padding-right: 4em;
+          padding-left: 4em;
+        }
+
+        .skillsContent > ul {
+          display: flex;
+          justify-content: center;
+          flex-flow: row wrap;
+        }
+
+        .skillsContent > ul > li {
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          padding-left: 2em;
+          padding-right: 2em;
+        }
+
+        .skillsContent > ul > li > img {
+          width: 90px;
+          height: 90px;
+        }
+
+        .skillsContent > ul > li > p {
+          font-weight: bold
+
+        }
+
     .about {
       padding-top: 2em;
       padding-bottom: 4em;
