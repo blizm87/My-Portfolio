@@ -1,125 +1,156 @@
-html, button, input, select, textarea, a,
-.pure-g [class *= "pure-u"] {
-        /* Set your content font stack here: */
-        font-family: Helvetica, Times, "Times New Roman", Georgia, serif;
+body {
+  background-color: lightgrey;
+}
+
+.myNav {
+  font-size: 18px;
+  opacity: .95;
+}
+
+    .myNavLinks {
+      color: white;
     }
 
-body {
-  background-color: /*rgb(106,197,255)*/ white;
-}
+    .myNavBtn {
+      margin-left: 1em;
+      background-color: #0F547F;
+      border: 1px solid #0F547F;
+    }
 
-.pure-u-1 {
-  position: relative;
-  display: block;
-  min-height: 200px;
-  border-bottom: 1px solid #0F547F;
-  z-index: -1;
-}
+        .myNavBtn > span {
+          background-color: grey;
+        }
 
 .mainContent {
-  width: 100%;
-}
-
-.sectionHeader {
-  margin-left: 180px;
-}
-
-.navigation {
-  position: fixed;
-  background-color: black;
-  width: 100%;
-  height: 3.5em;
-  border: 1px solid green;
-}
-
-    .navLinks {
-      float: left;
-      display: inline-block;
-      color: white;
-      padding-top: 1em;
-    }
-
-        .navLinks > a {
-          border-right: 2px solid grey;
-          border-left: 2px solid grey;
-          padding-right: .5em;
-          padding-left: .5em;
-          color: white;
-          text-decoration: none;
-          font-size: 18px;
-          margin-left: 1em;
-        }
-
-        .navLinks a:hover {
-          padding-top: 1em;
-          padding-bottom: 1em;
-          background-color: rgba(24, 134, 204, .3);
-          transition-duration: .5s;
-        }
-
-    .iconBar {
-      border: 1px solid black;
-      float: right;
-      display: inline-block;
-      color: white;
-    }
-
-        .iconBar > a {
-          color: white;
-          text-decoration: none;
-        }
-
-.Introduction {
   margin-top: 3.5em;
-  min-height: 445px;
 }
 
-.projNotice {
-  width: 100%;
-  text-align: center;
-}
-
-.projectWrapper {
-  width: 60em;
-  margin: 0 auto;
-  text-align: center;
-}
-
-    .projectWrapper > div > div > a > img {
-      width: 240px;
-      margin: 0 auto;
+    .intro {
+      background-color: silver;
     }
 
-    .projContentWrapper {
-      padding: 2em;
-    }
-
-        .projContentWrapper > div > p {
-          font-size: 24px;
+        .introContent {
+          text-align: center;
         }
 
-.about {
-  min-height: 25em;
-}
+        .introContent > h1 {
+          font-weight: bold;
+          font-size: 60px;
+        }
 
-    .aboutMe > p {
-      width: 30em;
-      margin: 0 auto;
-      font-size: 24px;
-      text-indent: 3em;
+        @media only screen and (max-width: 768px) {
+          .introContent {
+            text-align: left;
+          }
+        }
+
+    .work {
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
 
-.contact {
+        .workContent {
+          padding-left: 3em;
+        }
 
-}
+        .projFormat {
 
-    .contactMe > p {
-      width: 30em;
-      margin: 0 auto;
+        }
+
+            .projFormat > img {
+              width: 240px;
+            }
+
+            .projContent {
+              padding-top: 1em;
+            }
+
+            .projContent > p {
+              padding-top: 1em;
+              font-size: 18px;
+            }
+
+            .projContent > a > button {
+              color: black;
+            }
+
+    .skills {
+      background-color: silver;
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
 
-    .contactMe > span > p{
-      width: 30em;
-      margin: 0 auto;
-      text-indent: 2em;
+        .skillsContent {
+          padding-top: 3em;
+          padding-right: 4em;
+          padding-left: 4em;
+        }
+
+        .skillsContent > ul {
+          display: flex;
+          justify-content: center;
+          flex-flow: wrap;
+        }
+
+        .skillsContent > ul > li {
+          display: inline-block;
+          vertical-align: middle;
+          text-align: center;
+          padding-left: 2em;
+          padding-right: 2em;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .skillsContent {
+            padding-top: 3em;
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          .skillsContent > ul > li {
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            padding-left: .5em;
+            padding-right: .5em;
+          }
+
+        }
+
+        .skillsContent > ul > li > img {
+          width: 90px;
+          height: 90px;
+        }
+
+        .skillsContent > ul > li > p {
+          font-weight: bold;
+        }
+
+    .about {
+      padding-top: 2em;
+      padding-bottom: 4em;
+    }
+
+        .aboutContent {
+            font-weight: bold;
+            font-size: 24px;
+            padding-top: 1em;
+            padding-left: 5em;
+            padding-right: 5em;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .aboutContent {
+            font-weight: bold;
+            font-size: 24px;
+            padding-top: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+          }
+        }
+
+    .contact {
+      background-color: silver;
+      padding-top: 2em;
+      padding-bottom: 4em;
     }
