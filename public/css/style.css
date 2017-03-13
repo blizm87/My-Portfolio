@@ -3,6 +3,7 @@ body {
 }
 
 .myNav {
+  background-color: powderblue;
   font-size: 18px;
   opacity: .95;
 }
@@ -190,6 +191,7 @@ body {
         }
 
     .footer {
+      background-color: powderblue;
       text-align: center;
       color: black;
       font-weight: bold;
