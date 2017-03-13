@@ -14,12 +14,12 @@ body {
 
     .myNavBtn {
       margin-left: 1em;
-      background-color: #0F547F;
-      border: 1px solid #0F547F;
+      background-color: steelblue;
+      border: 1px solid steelblue;
     }
 
         .myNavBtn > span {
-          background-color: grey;
+          background-color: powderblue;
         }
 
 .mainContent {
