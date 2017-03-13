@@ -10,10 +10,6 @@ angular.module('myApp', [])
   .controller('MainController', function(){
     var vm = this;
     vm.title = 'My first ng';
-    vm.gmTitleOne = 'Connect Four';
-    vm.gmTitleTwo = 'Fenix Chat';
-    vm.gmTitleThree = 'Trivia Game';
-    vm.gmTitleFour = 'PoliView';
 
     const $projTitle = $('.projFormat>h3');
     const $projBtn = $('.projContent>a>button');
