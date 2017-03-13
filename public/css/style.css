@@ -25,6 +25,25 @@ body {
   margin-top: 3.5em;
 }
 
+    .intro {
+      background-color: silver;
+    }
+
+        .introContent {
+          text-align: center;
+        }
+
+        .introContent > h1 {
+          font-weight: bold;
+          font-size: 60px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          .introContent {
+            text-align: left;
+          }
+        }
+
     .work {
       padding-top: 2em;
       padding-bottom: 4em;
@@ -51,8 +70,12 @@ body {
               font-size: 18px;
             }
 
+            .projContent > a > button {
+              color: black;
+            }
+
     .skills {
-      background-color: darkgrey;
+      background-color: silver;
       padding-top: 2em;
       padding-bottom: 4em;
     }
@@ -127,7 +150,7 @@ body {
         }
 
     .contact {
-      background-color: darkgrey;
+      background-color: silver;
       padding-top: 2em;
       padding-bottom: 4em;
     }
