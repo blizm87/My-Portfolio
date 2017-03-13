@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: powderblue;
 }
 
 .myNav {
@@ -27,6 +27,7 @@ body {
 }
 
     .intro {
+      background-color: white;
     }
 
         .introContent {
@@ -47,7 +48,6 @@ body {
     .work {
       padding-top: 2em;
       padding-bottom: 4em;
-      background-color: powderblue;
     }
 
         .workContent {
@@ -79,6 +79,7 @@ body {
     .skills {
       padding-top: 2em;
       padding-bottom: 4em;
+      background-color: white;
     }
 
         .skillsContent {
@@ -130,7 +131,6 @@ body {
     .about {
       padding-top: 2em;
       padding-bottom: 4em;
-      background-color: powderblue;
     }
 
         .aboutContent {
@@ -154,6 +154,7 @@ body {
     .contact {
       padding-top: 2em;
       padding-bottom: 4em;
+      background-color: white;
     }
 
         .contactContent {
