@@ -1,21 +1,20 @@
 body {
-  background-color: powderblue;
+  background-color: lightgrey;
 }
 
 .myNav {
-  background-color: powderblue;
   font-size: 18px;
   opacity: .95;
 }
 
     .myNavLinks {
-      color: black;
+      color: white;
     }
 
     .myNavBtn {
       margin-left: 1em;
-      background-color: steelblue;
-      border: 1px solid steelblue;
+      background-color: #155B7F;
+      border: 1px solid #155B7F;
     }
 
         .myNavBtn > span {
@@ -27,7 +26,7 @@ body {
 }
 
     .intro {
-      background-color: white;
+
     }
 
         .introContent {
@@ -48,6 +47,7 @@ body {
     .work {
       padding-top: 2em;
       padding-bottom: 4em;
+      background-color: silver;
     }
 
         .workContent {
@@ -79,7 +79,6 @@ body {
     .skills {
       padding-top: 2em;
       padding-bottom: 4em;
-      background-color: white;
     }
 
         .skillsContent {
@@ -131,6 +130,7 @@ body {
     .about {
       padding-top: 2em;
       padding-bottom: 4em;
+      background-color: silver;
     }
 
         .aboutContent {
@@ -154,7 +154,6 @@ body {
     .contact {
       padding-top: 2em;
       padding-bottom: 4em;
-      background-color: white;
     }
 
         .contactContent {
@@ -192,7 +191,7 @@ body {
         }
 
     .footer {
-      background-color: powderblue;
+      background-color: silver;
       text-align: center;
       color: black;
       font-weight: bold;
