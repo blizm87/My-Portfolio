@@ -1,0 +1,29 @@
+{
+  "name": "My-Portfoliio",
+  "version": "1.0.0",
+  "description": "A MEAN stack website holding a portfolio of my best projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blizm87/My-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blizm87/My-Portfoliio/issues"
+  },
+  "homepage": "https://github.com/blizm87/My-Portfoliio#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.1",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "path": "^0.12.7"
+  }
+}
