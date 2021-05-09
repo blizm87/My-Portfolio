@@ -10,14 +10,14 @@ const app = express();
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, './public')));
 
-app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'main', layoutsDir: path.join(__dirname, '/views/layouts/')}));
-app.set('views', path.join(__dirname, 'views'));
+app.engine('hbs', hbs({extname: 'hbs', defaultLayout: 'main', layoutsDir: path.join(__dirname, './src/views/layouts/')}));
+app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'hbs');
 
 // ROUTES
-app.use('/', require('./routes/index'));
+app.use('/', require('./src/routes/index'));
 
 const port = process.env.PORT || 3000;
 

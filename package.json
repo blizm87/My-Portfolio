@@ -2,10 +2,10 @@
   "name": "My-Portfoliio",
   "version": "1.0.0",
   "description": "A MEAN stack website holding a portfolio of my best projects",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
