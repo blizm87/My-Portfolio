@@ -3,47 +3,67 @@
     <!-- MAIN HEADER IF BROWSER IS IE -->
     <template v-if="$q.platform.is.name === 'ie'">
       <q-item ref="benefits" class="q-px-xl q-pt-none q-pb-xl bg-white">
-        <!-- <q-item-section>
-          <q-item-label header class="text-h3 text-bold text-primary q-px-none q-py-lg">
-            Get Started with Docudad
-          </q-item-label>
-          <q-item-label class="row">
-            <div class="col-7 column q-pl-none q-pr-xl">
-              <div class="row text-h6 q-px-md q-pt-sm q-pb-md" style="max-width: 30em; border: 4px solid #F3A533;">
-                <span class="text-bold">Benefits of DocuDad</span>
-                <ul class="no-margin">
-                  <li>
-                    Initiate a guided co-parenting partnership with DocuDad.
-                  </li>
-                  <li>
-                    Increase effective communication and parental engagement
-                    through documented Parenting!
-                  </li>
-                </ul>
+          <q-item-section>
+            <q-item-label class="bg-white">
+              <div class="full-width bg-white">
+                <div class="q-pa-sm text-center" style="color: #F3A533;">
+                  <span class="text-bold text-h5">Jasmine Adriane Samuels Baby Shower</span><br>
+                  <span>
+                    Jun 26, 1:00 PM PDT <br>
+                    951 S Beach Blvd, La Habra, CA 90631, USA
+                  </span>
+                </div>
               </div>
-              <div class="row text-h6 q-mt-xl q-px-md q-pt-sm q-pb-md" style="max-width: 40em; border: 4px solid #F3A533;">
-                In many cases, the interests of the state and mother outweigh that of an
-                unmarried biological father if he doesn't take action in a timely manner to establish
-                and demonstrate a relationship with his child. Documentation of this is important!!!
-                <br><br>
-                Take action now!!! Download the DocuDad App today:
-                <br>
-                <q-btn class="q-mt-sm" color="secondary" label="Download" to="#" />
+              <img alt="Samuels Baby Shower" src="../../public/images/mainpic.jpg" class="full-width" style="max-height: 750px;" />
+              <div class="q-ml-xl bg-white">
+                <div class="q-pa-sm" style="max-width: 20em; color: #F3A533;">
+                  <span class="text-bold text-h6">Links to Available Registry's</span><br>
+                  <q-list>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O"
+                            target="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O">
+                            Amazon
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended"
+                            target="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended">
+                            Buy Buy Baby
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY"
+                            target="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY">
+                            Target
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7"
+                            target="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7">
+                            Walmart
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                  </q-list>
+                </div>
               </div>
-            </div>
-            <img alt="DocuDad" src="../../public/images/mainpic.jpg" class="col-5" style="max-height: 400px;" />
-          </q-item-label>
-        </q-item-section> -->
-        <img alt="Samuels Baby Shower" src="../../public/images/mainpic.jpg" class="full-width" style="max-height: 750px;" />
-        <div class="column absolute full-width">
-          <div class="col q-pa-sm text-center" style="color: #F3A533;">
-            <span class="text-bold text-h5">Jasmine Adriane Samuels Baby Shower</span><br>
-            <span>
-              Jun 26, 1:00 PM PDT <br>
-              951 S Beach Blvd, La Habra, CA 90631, USA
-            </span>
-          </div>
-        </div>
+            </q-item-label>
+          </q-item-section>
       </q-item>
     </template>
     <!-- MAIN HEADER -->
@@ -52,32 +72,62 @@
         <!-- HEADER IF PLATFORM IS MOBILE -->
         <template v-if="$q.platform.is.mobile">
           <q-item-section>
-            <q-item-label>
-              <div class="text-primary text-h5 text-bold q-pa-sm">Get Started with Docudad</div>
-              <img alt="DocuDad" src="../../public/images/mainpic.jpg" class="full-width" style="max-height: 750px;" />
-              <div class="q-pa-sm">
-                Download the<span class="text-subtitle2 text-bold"> DocuDad App</span> today:
-                <q-btn class="float-right vertical-top" color="secondary" label="Download" size="xs" to="#" />
-              </div>
-              <div :class="'column bg-white q-pa-sm'" style="border-top: 1px solid #F3A533; border-bottom: 1px solid #F3A533;">
-                <div class="col text-subtitle1">
-                  <span class="text-bold">Benefits of DocuDad</span>
-                  <ul class="no-margin q-pl-lg text-body2">
-                    <li>
-                      <!-- Initiate a guided co-parenting partnership with DocuDad. -->
-                      Help's to initiate a guided co-parenting partnership
-                    </li>
-                    <li>
-                      Increase's effective communication and parental engagement
-                      through documented Parenting!
-                    </li>
-                  </ul>
+            <q-item-label class="bg-white">
+              <div class="column full-width">
+                <div class="col q-pa-sm text-center" style="color: #F3A533;">
+                  <span class="text-bold text-h5">Jasmine Adriane Samuels Baby Shower</span><br><br>
+                  <span>
+                    Jun 26, 1:00 PM PDT <br>
+                    951 S Beach Blvd, La Habra, CA 90631, USA
+                  </span>
                 </div>
-                <div class="col text-subtitle2 q-mt-sm">
-                  In many cases, the interests of the state and mother outweigh that of an
-                  unmarried biological father if he doesn't take action in a timely manner to establish
-                  and demonstrate a relationship with his child.
-                  <span style="font-weight: 900;">DOCUMENTATION</span> of this is <span style="font-weight: 900;">IMPORTANT!!!</span>
+              </div>
+              <img alt="DocuDad" src="../../public/images/mainpic.jpg" class="full-width" style="max-height: 750px;" />
+              <div class="q-ml-xl bg-white full-width text-center">
+                <div class="q-pa-sm text-center" style="color: #F3A533;">
+                  <span class="text-bold text-h6 text-center">Links to Available Registry's</span><br>
+                  <q-list>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O"
+                            target="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O">
+                            Amazon
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended"
+                            target="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended">
+                            Buy Buy Baby
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY"
+                            target="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY">
+                            Target
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                    <q-item clickable dense>
+                      <q-item-section>
+                        <q-item-label>
+                          <a href="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7"
+                            target="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7">
+                            Walmart
+                          </a>
+                        </q-item-label>
+                      </q-item-section>
+                    </q-item>
+                  </q-list>
                 </div>
               </div>
             </q-item-label>
@@ -101,22 +151,42 @@
               <q-list>
                 <q-item clickable dense>
                   <q-item-section>
-                    <q-item-label>Amazon</q-item-label>
-                  </q-item-section>
-                </q-item>
-                <q-item clickable dense exact to="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended">
-                  <q-item-section>
-                    <q-item-label>Buy Buy Baby</q-item-label>
+                    <q-item-label>
+                      <a href="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O"
+                        target="https://www.amazon.com/baby-reg/glorita-samuels-justin-samuels-july-2021-lahabra/29F89IY94PV7O">
+                        Amazon
+                      </a>
+                    </q-item-label>
                   </q-item-section>
                 </q-item>
                 <q-item clickable dense>
                   <q-item-section>
-                    <q-item-label>Target</q-item-label>
+                    <q-item-label>
+                      <a href="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended"
+                        target="https://www.buybuybaby.com/store/giftregistry/viewregistryguest/550053155?selectedRLVFilters=_recommended">
+                        Buy Buy Baby
+                      </a>
+                    </q-item-label>
                   </q-item-section>
                 </q-item>
-                <q-item clickable dense to="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7/">
+                <q-item clickable dense>
                   <q-item-section>
-                    <q-item-label>Walmart</q-item-label>
+                    <q-item-label>
+                      <a href="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY"
+                        target="https://www.target.com/gift-registry/giftgiver?registryId=4d88e7749711453e90e2d63e81675145&type=BABY">
+                        Target
+                      </a>
+                    </q-item-label>
+                  </q-item-section>
+                </q-item>
+                <q-item clickable dense>
+                  <q-item-section>
+                    <q-item-label>
+                      <a href="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7"
+                        target="https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7">
+                        Walmart
+                      </a>
+                    </q-item-label>
                   </q-item-section>
                 </q-item>
               </q-list>
@@ -130,7 +200,7 @@
 
 <script>
 
-import { scroll } from 'quasar'
+import { openURL, scroll } from 'quasar'
 const { getScrollTarget, setScrollPosition } = scroll
 
 export default {
@@ -152,8 +222,8 @@ export default {
       const duration = 500
       setScrollPosition(target, offset, duration)
     },
-    goWalmart () {
-      window.location = 'https://www.walmart.com/registry/baby/5316bd5c-010d-4304-8375-e1b9a87a0fd7/'
+    goToLink (val) {
+      openURL(val)
     }
   },
   mounted () {}
