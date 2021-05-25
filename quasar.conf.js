@@ -115,9 +115,9 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'babyshower',
-        short_name: 'babyshower',
-        description: 'babyshower',
+        name: 'Samuels Baby Shower',
+        short_name: 'Samuels Baby Shower',
+        description: 'Baby Shower for Jasmine Adriane Samuels',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
