@@ -11,6 +11,10 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer class="bg-accent q-py-md" reveal>
+      <span class="invisible">testing</span>
+    </q-footer>
   </q-layout>
 </template>
 
